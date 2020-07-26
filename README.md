@@ -12,7 +12,7 @@
 <!-- image for team tracker-->
   <p align="center">
   <a href="#">
-    <img src="https://i.imgur.com/qGRRccb.png" width="125" height="100">
+    <img src="https://img.icons8.com/bubbles/2x/exercise.png" width="125" height="100">
   </a>
   
 ## Demo link
@@ -32,7 +32,7 @@ This app allows you to track your workouts. You can add a new excercise, create 
 
 Pending 
 
-
+## Technologies
 ### Main Languages
 
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - This application is written and programmed using ES6 JavaScript.
@@ -57,7 +57,7 @@ Pending
 
 * [Node](https://nodejs.org/en/) -Used for backend.
 
-* [MongoDB](https://www.mongodb.com/ - Used for database.
+* [MongoDB](https://www.mongodb.com/) - Used for database.
 
  
 
