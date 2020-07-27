@@ -31,4 +31,29 @@ router.get('/workouts/range', (req, res) => {
 	db.Workout.find().populate('exercises').then((dbWorkout) => res.json(dbWorkout)).catch((err) => res.json(err));
 });
 
+//add an exercise to an existing workout
+router.put('/workouts/:id', (req, res) => {
+	console.log(req.body);
+	db.Workout
+		.findByIdAndUpdate(
+			{ _id: req.params.id },
+			{
+				$push: { exercises: req.body },
+				$inc: { totalDuration: req.body.duration },
+				new: true
+			},
+			(err, result) => {
+				if (err) {
+					res.send(err);
+				} else {
+					res.send(result);
+				}
+			}
+		)
+		.catch((err) => {
+			console.log('err', err);
+			res.json(err);
+		});
+});
+
 module.exports = router;
