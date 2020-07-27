@@ -15,8 +15,13 @@
     <img src="https://img.icons8.com/bubbles/2x/exercise.png" width="125" height="100">
   </a>
   
-## Demo link
+## Demo 
 
+![fitness-tracker](https://user-images.githubusercontent.com/61640527/88499770-d9898800-cf94-11ea-8d52-875d2bc0fc38.gif)
+
+### Heroku live demo
+
+https://desolate-reaches-79137.herokuapp.com/?id=5f1e444e840f5a00174707f8
 
 Pending
 
